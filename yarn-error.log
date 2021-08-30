@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/Cellar/node/16.8.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mirzaohranovic/Apps/etf/etf-ab-package/package.json: Unexpected token } in JSON at position 847
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "etf-ab-testing-rn",
+    "version": "1.0.4",
+    "description": "AB Testing package for React Native by ETF student",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build:package": "microbundle-crl --no-compress --format modern,cjs"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ohri31/etf-ab-testing-rn"
+    },
+    "author": "Mirza Ohranovic - student work",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ohri31/etf-ab-testing-rn/issues"
+    },
+    "homepage": "https://github.com/ohri31/etf-ab-testing-rn#readme",
+    "dependencies": {
+      "react": "16.13.1",
+      "react-native": "~0.63.4",
+      "react-native-device-info": "^8.3.1"
+    },
+    "devDependencies": {
+      "@babel/core": "7.9.6",
+      "babel-plugin-transform-async-to-promises": "^0.8.15",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
