@@ -1,6 +1,6 @@
 {
   "name": "etf-ab-testing-rn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AB Testing package for React Native by ETF student",
   "main": "index.js",
   "scripts": {
