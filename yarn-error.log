@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/Cellar/node/16.8.0/bin/node /usr/local/bin/yarn add react-native-device-info
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mirzaohranovic/Apps/etf/etf-ab-package/package.json: Unexpected token } in JSON at position 781
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "etf-ab-testing-rn",
+    "version": "1.0.0",
+    "description": "AB Testing package for React Native by ETF student",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/ohri31/etf-ab-testing-rn.git"
+    },
+    "author": "Mirza Ohranovic - student work",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ohri31/etf-ab-testing-rn/issues"
+    },
+    "homepage": "https://github.com/ohri31/etf-ab-testing-rn#readme",
+    "peerDependencies": {
+      "react": "^16.0.0-beta.5",
+      "react-native": "^0.49.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0",
+      "metro-react-native-babel-preset": "^0.59.0"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
